@@ -1,5 +1,3 @@
-import javax.swing.plaf.synth.SynthTabbedPaneUI;
-
 public class Calculator
 {
     public int	add(int a, int b)
