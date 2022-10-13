@@ -6,7 +6,7 @@ public class Main
 	{
 		Scanner 	scanner = new Scanner(System.in);
 		Calculator	calc = new Calculator();
-		String		op;
+		String		op = null;
 		int			a = 0;
 		int			b = 0;
 		System.out.printf("Enter equation (eg. 1 + 2): ");
@@ -19,7 +19,7 @@ public class Main
 		catch (Exception e)
 		{
 			System.out.println("Value declaration failed!");
-			break ;
+			return ;
 		}
 		if (op.charAt(0) == '+')
 			System.out.printf("%d\n", calc.add(a, b));

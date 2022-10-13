@@ -1,1 +1,1 @@
-javac Main.java Calculator.java && java Main
+javac *.java && java Main
