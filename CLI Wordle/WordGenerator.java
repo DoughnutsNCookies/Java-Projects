@@ -45,7 +45,7 @@ public class WordGenerator
 		if (this.allowed.contains(toCheck.toLowerCase()))
 			return (true);
 		else
-			System.out.println("Unga Bunga?\n");
+			System.out.println("Unga Bunga?");
 		return (false);
 	}
 }
